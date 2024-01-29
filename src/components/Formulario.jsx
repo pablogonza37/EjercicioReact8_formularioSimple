@@ -33,12 +33,12 @@ const Formulario = () => {
       return Object.keys(errores).length === 0;
     };
 
-    const handleSubmit = (event) => {
-      event.preventDefault();
+    const handleSubmit = (e) => {
+      e.preventDefault();
       if (validarFormulario()) {
-        alert('Formulario válido. Enviando datos...');
+        alert('Formulario válido. datos enviados');
       } else {
-        alert('Formulario inválido. Por favor, revisa los campos.');
+        alert('Formulario inválido. Por favor, Completar todos los datos.');
       }
     };
  
