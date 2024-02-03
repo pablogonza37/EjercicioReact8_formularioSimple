@@ -11,7 +11,7 @@ Validación de Campos: Al presionar el botón "Enviar", se verifica que todos lo
 Para ejecutar esta aplicación en tu entorno local, sigue estos pasos:
 
 - Clona este repositorio en tu máquina local utilizando Git: git clone https://github.com/pablogonza37/EjercicioReact8_formularioSimple.git
-Navega al directorio del proyecto: cd formulario-simple
+- Navega al directorio del proyecto: cd formulario-simple
 
 - Instala las dependencias del proyecto utilizando npm o yarn: npm install o yarn install.
 
