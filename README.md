@@ -1,6 +1,10 @@
 # Formulario Simple (React)
 Este proyecto es una aplicación web desarrollada con React que incluye un formulario con los campos de Nombre, Apellido, DNI, correo electrónico y un botón para enviar los datos del formulario. Además, el título "Formulario" tiene un color de fondo diferente al del cuerpo de la página.
 
+## Demo
+
+Puedes ver una demostración del proyecto en vivo en [Netlify](https://steady-dragon-c7df01.netlify.app/).
+
 ## Funcionalidades
 Formulario de Datos: El formulario incluye campos para Nombre, Apellido, DNI, correo electrónico y un botón para enviar los datos.
 
