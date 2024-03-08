@@ -49,6 +49,7 @@ const Formulario = () => {
     setApellido("");
     setDni("");
     setErrores("");
+    setEmail("")
   };
 
   return (
@@ -64,7 +65,7 @@ const Formulario = () => {
           value={nombre}
           onChange={(e) => setNombre(e.target.value)}
         />
-        {errores.nombre && <span>{errores.nombre}</span>}
+        {errores.nombre && <span className='text-warning'>{errores.nombre}</span>}
       </Form.Group>
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput2">
         <Form.Label className="text-white">Apellido:</Form.Label>
@@ -77,7 +78,7 @@ const Formulario = () => {
           value={apellido}
           onChange={(e) => setApellido(e.target.value)}
         />
-        {errores.apellido && <span>{errores.apellido}</span>}
+        {errores.apellido && <span className='text-warning'>{errores.apellido}</span>}
       </Form.Group>
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput3">
         <Form.Label className="text-white">DNI:</Form.Label>
@@ -90,7 +91,7 @@ const Formulario = () => {
           value={dni}
           onChange={(e) => setDni(e.target.value)}
         />
-        {errores.dni && <span>{errores.dni}</span>}
+        {errores.dni && <span className='text-warning'>{errores.dni}</span>}
       </Form.Group>
       <Form.Group className="mb-3" controlId="exampleForm.ControlInput4">
         <Form.Label className="text-white">Email:</Form.Label>
@@ -103,7 +104,7 @@ const Formulario = () => {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
-        {errores.email && <span>{errores.email}</span>}
+        {errores.email && <span className='text-warning'>{errores.email}</span>}
       </Form.Group>
       <div className="text-center">
         <Button variant="warning" className="w-25 mt-3" type="submit">
